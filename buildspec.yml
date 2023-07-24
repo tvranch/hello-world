@@ -4,7 +4,7 @@ phases:
   pre_build:
    commands:
        - echo "creating <path-to-folder> folder"
-       - mkdir -p ./<path-to-folder>/
+       - mkdir -p ./hello-world/
   build:
     commands:
         - echo "Copying the file"
