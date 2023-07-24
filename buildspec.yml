@@ -8,8 +8,8 @@ phases:
   build:
     commands:
         - echo "Copying the file"
-        - cp hello-world.html ./<path-to-folder>/
+        - cp hello-world.html ./hello-world/
 artifacts:
    files:
-      - <path-to-folder>/**/*
+      - hello-world/**/*
  
